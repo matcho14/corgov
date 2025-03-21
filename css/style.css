@@ -1,0 +1,420 @@
+/* top row  */
+
+    .top-row {
+        background-color: #f8fafc;
+        padding: 10px;
+        text-align: left; /* Align text to the left */
+        font-weight: bold; /* Make text bold */
+        font-size: 1.5em; /* Increase font size */
+    }
+
+
+    .navbar img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+/* end top row  */
+
+
+/* carrosel */
+.carousel img{
+    width: 100%;
+    height: 400px;
+}
+
+
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+  }
+  
+  
+  .carousel-indicators .active {
+    background-color: #ffd700 !important; /* اللون الأصفر */
+    border-color: #ffd700 !important;
+  }
+
+
+  .carousel-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
+  .carousel-text-overlay h3 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .carousel-text-overlay p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-text-overlay h3 {
+      font-size: 1.8rem;
+    }
+    
+    .carousel-text-overlay p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 450px) {
+    .carousel-text-overlay h3 {
+      font-size: 1.2rem;
+    }
+    
+    .carousel-text-overlay p {
+      font-size: .6rem;
+    }
+  }
+/* end carrosel */
+
+
+/* quick links and leadership  */
+
+.card-header {
+    background-color: #ffd700; /* Yellow background */
+    font-weight: bold;
+  }
+  
+  .card-body img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .list-group-item i {
+    margin-right: 10px;
+  }
+  .quicklinks {
+    
+    gap: 10px;
+  }
+/*end  quick links and leadership  */
+
+
+/* our services and faq */
+.card-header {
+    background-color: #ffd700; /* Yellow background */
+    font-weight: bold;
+  }
+  
+  .list-group-item i {
+    margin-right: 10px;
+  }
+  
+  .accordion-button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+/* end our services and faq */
+/* management */
+.rounded-circle {
+  border: 2px solid #ddd;
+}
+/* end management */
+
+
+/* footer */
+footer {
+  background-color: #ffa500; /* Orange background */
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #333; /* Change to your preferred hover color */
+}
+/* end footer */
+
+
+/* our services */
+.services-main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.services-main-section .content {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.services-main-section .full-width-image {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+}
+.services-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  padding-bottom: 10px;
+}
+
+.service ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service ul li {
+  margin: 10px 0;
+}
+
+.service ul li strong {
+  color: #000;
+}
+/* end our services */
+
+/* our resources */
+.our-resources-main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.our-resources-main-section .content {
+  position: absolute;
+  color: #000;
+  font-weight: bolder;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.our-resources-main-section .full-width-image {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+}
+
+
+.our-resources-info-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.our-resources-info-section .info {
+  margin-bottom: 20px;
+}
+
+.our-resources-info-section .info h3 {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  padding-bottom: 10px;
+}
+
+.our-resources-info-section .info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.our-resources-info-section .info ul li {
+  margin: 10px 0;
+}
+
+.our-resources-info-section .info ul li strong {
+  color: #000;
+}
+/* end our resources */
+
+
+/* introduction  */
+.introduction-main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.introduction-main-section .content {
+  position: absolute;
+  color: #000;
+  font-weight: bolder;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.introduction-main-section .full-width-image {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+}
+
+
+
+.introduction-three-boxes-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.introduction-three-boxes-section .box {
+  
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction-three-boxes-section .box h3 {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.introduction-three-boxes-section .box p {
+  color: #333;
+}
+
+
+
+.introduction-dynamic-boxes-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.introduction-dynamic-boxes-section .box {
+  flex: 1 1 calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction-dynamic-boxes-section .box h3 {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.introduction-dynamic-boxes-section .box p {
+  color: #333;
+}
+/*end  introduction  */
+
+
+/* support page */
+.support-main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.support-main-section .content {
+  position: absolute;
+  color: #000;
+  font-weight: bolder;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.support-main-section .full-width-image {
+  width: 100%;
+  height: 700px;
+  opacity: 0.8;
+}
+.support-main-section .email{
+  color: #bb0404;
+}
+/* end support page */
+
+/* office locations */
+
+.office-locations-main-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.office-locations-main-section .content {
+  position: absolute;
+  color: #000;
+  font-weight: bolder;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.office-locations-main-section .full-width-image {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+}
+
+
+.offices .card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offices .card-body {
+  padding: 15px;
+}
+
+.offices .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.offices .card-text {
+  margin-bottom: 5px;
+}
+
+/* end office locations */
